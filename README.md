@@ -45,6 +45,26 @@ Database Name
 employee_db
 
 ---
+## Unit Testing
+
+Unit tests are implemented using:
+
+- JUnit 5
+- Mockito
+- Spring Boot Test
+
+
+Test cases covered:
+
+- Employee Service Testing
+- Employee Repository Testing
+
+
+Test Result: 
+Tests run: 7
+Failures: 0
+Errors: 0
+Skipped: 0
 
 ## Default Login
 
