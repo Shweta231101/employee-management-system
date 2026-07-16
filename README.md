@@ -42,7 +42,7 @@ This application provides secure Employee CRUD operations with JWT authenticatio
 
 Database Name
 
-employee_db
+employee_management_db
 
 ---
 ## Unit Testing
