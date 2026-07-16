@@ -1,9 +1,7 @@
 package com.example.employeemanagementsystem.exception;
 
 
-
-public class EmployeeNotFoundException
-        extends RuntimeException {
+public class EmployeeNotFoundException extends RuntimeException {
 
 
     public EmployeeNotFoundException(String message){
@@ -11,6 +9,5 @@ public class EmployeeNotFoundException
         super(message);
 
     }
-
 
 }

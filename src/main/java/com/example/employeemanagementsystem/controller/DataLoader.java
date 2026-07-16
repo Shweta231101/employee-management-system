@@ -1,4 +1,4 @@
-package com.example.employeemanagementsystem;
+package com.example.employeemanagementsystem.dataloader;
 
 
 import com.example.employeemanagementsystem.entity.User;

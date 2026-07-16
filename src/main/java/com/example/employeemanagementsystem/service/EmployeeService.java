@@ -1,8 +1,9 @@
 package com.example.employeemanagementsystem.service;
 
-import org.springframework.data.domain.Page;
 
 import com.example.employeemanagementsystem.entity.Employee;
+
+import java.util.List;
 
 
 public interface EmployeeService {
@@ -11,20 +12,16 @@ public interface EmployeeService {
     Employee saveEmployee(Employee employee);
 
 
-    Page<Employee> getEmployees(
-            int page,
-            int size,
-            String sortBy
-    );
+    List<Employee> getEmployees(int page, int size, String sortBy);
+
+
+    List<Employee> getAllEmployees();
 
 
     Employee getEmployeeById(Long id);
 
 
-    Employee updateEmployee(
-            Long id,
-            Employee employee
-    );
+    Employee updateEmployee(Long id, Employee employee);
 
 
     void deleteEmployee(Long id);
