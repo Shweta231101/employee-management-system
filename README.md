@@ -140,7 +140,7 @@ Open in IntelliJ IDEA
 
 Create MySQL Database
 
-employee_db
+employee_management_db
 
 Update
 
